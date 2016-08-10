@@ -1,5 +1,5 @@
-from classfigura import FiguraGeometrica
-class Cuadrado(FiguraGeometrica)
+from figura import FiguraGeometrica
+class Cuadrado(FiguraGeometrica):
 
 	def __init__(self, lado):
 		super(). __init__(lado, lado)
@@ -8,6 +8,6 @@ class Cuadrado(FiguraGeometrica)
 		resultado = " "
 
 		for i in range(self.altura):
-			resultado += "* " * (i+1) * (self.base) + "\n"
+			resultado += "* "* (self.base) + "\n"
 
 		return resultado	

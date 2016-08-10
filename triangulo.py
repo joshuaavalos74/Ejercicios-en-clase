@@ -1,5 +1,5 @@
-from classfigura import FiguraGeometrica
-class Triangulo(FiguraGeometrica)
+from figura import FiguraGeometrica
+class Triangulo(FiguraGeometrica):
 
 	def __init__(self, base, altura):
 		super(). __init__(base, altura)
