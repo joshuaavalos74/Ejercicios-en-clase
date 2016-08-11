@@ -1,5 +1,5 @@
 class FiguraGeometrica(object):
-	def __init__(sel, base, altura):
+	def __init__(self, base, altura):
 		self.base = base
 		self.altura = altura
 	def imprimir(self):
